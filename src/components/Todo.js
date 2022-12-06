@@ -14,7 +14,7 @@ export const Todo = ({ todo }) => {
   }, [todo]);
 
   return (
-    <Box mb={1} bgColor="lightcoral" p={2}>
+    <Box mb={1}bgColor="lightgrey" p={2}>
       <Checkbox onChange={handleCheked} colorScheme="teal" isChecked={cheked}>
         <Text as={todo.completed && "del"}>{todo.content}</Text>
       </Checkbox>
