@@ -7,13 +7,13 @@ export const AddTodo = () => {
   const dispatch = useDispatch();
   const [value, setValue] = useState('');
 
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(addTodo(value));
     setValue('');
   }
 
-  const handleInput = e => {
+  const handleInput = (e) => {
     setValue(e.target.value);
   }
 
@@ -35,7 +35,7 @@ export const AddTodo = () => {
           disabled={!value}
           borderTopLeftRadius={0}
           borderBottomLeftRadius={0}
-        >Add Todo</Button>
+        >Añadir</Button>
       </Flex>
     </form>
   )
