@@ -1,4 +1,11 @@
-# Simple todo list usign React & Redux
+Todo list usign React & Redux
+
+<strong>Preview</strong>
+
+![](todo-app-react-redux.JPG)
+
+Live demo: https://fascinating-tarsier-113fc8.netlify.app/
+
 
 ## Installation & Set Up
 
